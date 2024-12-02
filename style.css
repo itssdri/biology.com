@@ -1,28 +1,18 @@
-
 /* Definição da fonte para o corpo */
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #f5f5eb; /* Cor de fundo principal */
+  color: #333333; /* Cor do texto */
 }
 
 /* Estilo para o header */
 header {
-  background: #555555;
+  background: #f5f5eb;
   padding: 20px 0;
+  border-bottom: 2px solid #000000; /* Linha inferior para o header */
 }
 
-/* Estilo para as seções de navegação */<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tudo sobre Câncer</title>
-</head>
-
-…</body>
-
-</html>
+/* Estilo para as seções de navegação */
 nav {
   position: absolute;
   top: 110px;
@@ -43,19 +33,21 @@ nav a {
 }
 
 nav a:hover {
-  color: #c78c19;
+  color: #333333;
   text-decoration: underline;
 }
 
 /* Estilo para as seções de conteúdo */
 section {
   padding: 20px;
+  background-color: #ffffff; /* Cor de fundo das seções de conteúdo */
 }
 
 h1 {
   font-size: 28px;
   text-align: center;
   margin-bottom: 20px;
+  color: #000000; /* Cor do título */
 }
 
 /* Estilo para os blocos de conteúdo */
@@ -72,6 +64,7 @@ ul {
 
 ul li {
   margin: 10px 0;
+  color: #333333; /* Cor do texto da lista */
 }
 
 /* Estilo para o iframe (vídeo) */
@@ -97,10 +90,11 @@ iframe {
   box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 10px;
+  background-color: #f5f5eb; /* Cor de fundo dos itens */
 }
 
 .produtos li:hover {
-  border-color: #c78c19;
+  border-color: #333333;
 }
 
 .produtos li:active {
@@ -114,17 +108,20 @@ iframe {
 .produtos h2 {
   font-size: 30px;
   font-weight: bold;
+  color: #000000; /* Cor do título dos produtos */
 }
 
 /* Estilo para a descrição e preço dos produtos */
 .produto-descricao {
   font-size: 18px;
+  color: #333333; /* Cor da descrição do produto */
 }
 
 .produto-preco {
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
+  color: #333333; /* Cor do preço */
 }
 
 /* Estilo do footer */
@@ -150,6 +147,7 @@ form legend {
   display: block;
   font-size: 20px;
   margin: 0 0 10px;
+  color: #000000; /* Cor das labels */
 }
 
 .input-padrao {
@@ -157,6 +155,9 @@ form legend {
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: #f5f5eb; /* Cor de fundo do input */
 }
 
 .checkbox {
